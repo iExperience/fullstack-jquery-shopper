@@ -83,7 +83,8 @@ to the top right of the `div`, using [`position: absolute`](http://learnlayout.c
 </ul>
 ```
 
-* **NOTE**: The images each have a different size, on purpose. *Make sure you fix this with CSS* by making all the images have a consistent width! Hint: you can do this by making the images be the full width of their parent, or using your `responsive-img` class from the responsive css workshop.
+* **NOTE**: The images each have a different size, on purpose. *Make sure you fix this with CSS* by making all the images have a consistent width!
+
 * Since you are going to make your images clickable, it would be nice to let the user know that they are clickable. Normally when an element is clickable, the cursor changes to a pointer. However because images are not normally clickable, the pointer will stay the default arrow. Using the CSS [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) property, make the images appear clickable by choosing the appropriate cursor type.
 * Using jQuery, make it so that when the user clicks on an image, an overlay will appear on the page, and a copy of the clicked image will appear at the center of the overlay. Note that this is a custom overlay, not an `alert` or anything built-in.
 * In addition to the image, there should be a paragraph below the image that contains the text in the `alt` attribute of the image
